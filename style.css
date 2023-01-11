@@ -91,3 +91,42 @@ input {
 ::placeholder {
   color: #000;
 }
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 10% 1% 10%;
+  padding: 1%;
+  border: gray solid;
+  font-size: larger;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+li {
+  border-right: gray solid 1px;
+  padding-right: 15px;
+}
+
+.hide {
+  display: none;
+}
+.contact-holder {
+  margin: 5% 24% 0 24%;
+  height: 60vh;
+}
+
+.block {
+  display: block;
+}
+
+.date {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 0 10%;
+}
