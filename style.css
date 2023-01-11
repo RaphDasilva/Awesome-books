@@ -15,6 +15,7 @@
   flex-direction: column;
   gap: 15px;
   padding-top: 2.5rem;
+  height: 85vh;
 }
 
 h1 {
@@ -130,3 +131,13 @@ li {
   flex-direction: row-reverse;
   margin: 0 10%;
 }
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1% 5%;
+  border: gray solid;
+  margin: 2% 10%;
+  gap: 20px;
+}
+
