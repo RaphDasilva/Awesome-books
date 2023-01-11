@@ -24,6 +24,7 @@ h1 {
 form {
   display: flex;
   flex-direction: column;
+
   /* gap: 1.5rem; */
   width: 25rem;
   max-width: 99%;
@@ -31,13 +32,13 @@ form {
   margin-top: 1rem;
 }
 
-.booksList{
+.booksList {
   width: 95%;
   border: 2px #000 solid;
   margin: 0 auto;
 }
 
-#booksList{
+#booksList {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -52,7 +53,6 @@ form {
 #booksList .book-wrapper:nth-child(odd) {
   background: rgb(194, 187, 187);
 }
-
 
 .book-info {
   display: flex;
