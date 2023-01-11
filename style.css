@@ -1,5 +1,93 @@
-* {
-  padding: 0;
+*,
+*::before,
+*::after {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  font-family: 'Balsamiq Sans', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-top: 2.5rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+
+  /* gap: 1.5rem; */
+  width: 25rem;
+  max-width: 99%;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.booksList {
+  width: 95%;
+  border: 2px #000 solid;
+  margin: 0 auto;
+}
+
+#booksList {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.book-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+#booksList .book-wrapper:nth-child(odd) {
+  background: rgb(194, 187, 187);
+}
+
+.book-info {
+  display: flex;
+  gap: 5px;
+}
+
+#addBtn,
+#delete {
+  padding: 0 5px;
+  border: 2px solid;
+  box-shadow: 3px 3px black;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#addBtn {
+  padding: 0.15rem 1rem;
+  align-self: flex-end;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+  gap: 2rem;
+}
+
+input {
+  border: 2px #000 solid;
+  padding: 5px;
+}
+
+::placeholder {
+  color: #000;
 }
