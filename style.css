@@ -3,3 +3,21 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.table-container, .form-container, h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.table-container{
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  margin: auto;
+}
